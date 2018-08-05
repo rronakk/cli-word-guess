@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/rronakk/cli-word-guess#readme",
   "dependencies": {
+    "chalk": "^2.4.1",
+    "figlet": "^1.2.0",
     "inquirer": "^6.0.0"
   }
 }
