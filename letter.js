@@ -5,6 +5,10 @@ var Letter = function(char){
         if (this.isGuess === true){
             return this.char;
         }
+        // else if (this.char = " "){
+        //     console.log(this.char);
+        //     return " ";
+        // }
         else{
             return "_";
         }
@@ -18,7 +22,7 @@ var Letter = function(char){
 }
 
 var one = new Letter("a");
-console.log(one.char);
+// console.log(one.char);
 one.evaluateChar("a");
 one.showChar();
 

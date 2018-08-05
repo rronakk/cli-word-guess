@@ -16,15 +16,14 @@ var Word = function(){
             this.sentence[eachChar].evaluateChar(char);
         }
     }
-
 }
 
 var two = new Word();
 // two.sentence = ["h", "l", "m"];
 two.sentence = [new Letter("a"), new Letter("b"), new Letter("c")];
-console.log(typeof two.sentence);
+// console.log(typeof two.sentence);
 // console.log(two.sentence);
-two.checkChar("c");
-console.log(two.getSentence());
+// two.checkChar("c");
+// console.log(two.getSentence());
 
 module.exports = Word;
